@@ -1,0 +1,29 @@
+.multi-column-section {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1100px) {
+    flex-direction: row;
+  }
+}
+
+.multi-column {
+  width: 100%;
+
+  @media screen and (min-width: 1100px) {
+    width: 33.3337%;
+  }
+}
+
+.multi-column-content {
+  padding: 25px 25px 50px 25px;
+
+  @media screen and (min-width: 1100px) {
+    padding: 50px 25px 75px 25px;
+    box-shadow: -15px 23px 77px -13px black;
+
+    p {
+      margin: -20px 0 40px 0;
+    }
+  }
+}

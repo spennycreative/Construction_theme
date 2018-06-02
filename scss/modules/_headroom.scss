@@ -1,0 +1,35 @@
+.headroom {
+    will-change: transform;
+    transition: transform 10ms linear;
+    position: fixed;
+    z-index: 15;
+    width: 100%;
+    margin-top: 0;
+    box-shadow: 0 0 .5em black; 
+
+    @media screen and (max-width: 799px) {
+      margin-top: 0;
+    }
+}
+.headroom--pinned {
+    transform: translateY(0%);
+    background-color: $color__branding-navy;
+    box-shadow: 0 0 .5em black;
+}
+.headroom--unpinned {
+    transform: translateY(100%);
+    margin-top: -100em;
+    background-color: $color__branding-navy;
+    box-shadow: 0 0 .5em black;
+}
+
+
+//primary content needed to be pushed down due to the headroom
+
+#primary {
+  margin-top: 5em;
+
+  @media screen and (min-width: 800px) {
+    margin-top: 9em;
+  }
+}

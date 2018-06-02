@@ -1,0 +1,32 @@
+.full-width-cta-section {
+  padding: 100px 0 150px 0;
+}
+
+.full-width-cta {
+  max-width: 1200px;
+  padding: 0 25px;
+  margin: auto;
+}
+
+.full-width-cta-content {
+
+  h1 {
+    line-height: 1.1;
+    padding: 0 0 5px 0;
+    border-bottom: 3px solid black;
+    max-width: 550px;
+
+    @media screen and (max-width: 40em) {
+      max-width: 300px;
+    }
+  }
+
+  p {
+    margin: -10px 0 40px 0;
+    font-style: italic;
+
+    @media screen and (min-width: 800px) {
+      max-width: 50%;
+    }
+  }
+}

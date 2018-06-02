@@ -1,0 +1,65 @@
+/*!
+Theme Name: construction_theme
+Theme URI: http://underscores.me/
+Author: Spencer Green
+Author URI: https://spennycreative.com
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: construction_theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+construction_theme is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+@import "includes/wordpress.css";
+@import "scss/colors";
+@import "scss/helpers";
+
+/*-------------------------------------------------------------------
+Global Bodules
+---------------------------------------------------------------------*/
+
+@import "scss/modules/header";
+@import "scss/modules/footer";
+@import "scss/modules/headroom";
+
+//footer content area
+
+@import "scss/modules/footer/main-footer-area";
+@import "scss/modules/footer/warning";
+@import "scss/modules/footer/pre-footer-callout";
+
+/*-------------------------------------------------------------------
+Page Builder Layouts
+---------------------------------------------------------------------*/
+
+@import "scss/layouts/hero";
+@import "scss/layouts/full-width-cta";
+@import "scss/layouts/text-area";
+@import "scss/layouts/side-by-side";
+@import "scss/layouts/contact-form";
+@import "scss/layouts/multi-column";
+
+/*-------------------------------------------------------------------
+Portfolio Builder Layouts
+---------------------------------------------------------------------*/
+
+@import "scss/portfolio/portfolio-hero";
+
+/*-------------------------------------------------------------------
+Homes Layouts
+---------------------------------------------------------------------*/
+
+@import "scss/homes/homes-hero";
+@import "scss/homes/homes-gallery";
+@import "scss/homes/text-area";
+

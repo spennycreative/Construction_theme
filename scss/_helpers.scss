@@ -1,0 +1,102 @@
+/*---------------------------------------------
+Table of Contents
+===============================================
+
+1. buttons
+2. box-shadows
+----------------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------------
+1. buttons
+----------------------------------------------*/
+
+.primary {
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $color__branding-ocean-blue-hover;
+  color: $color__branding-white !important;
+  text-decoration: none;
+  box-shadow: 0 0 5px 1px black;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    background-color: $color__branding-ocean-blue;
+    box-shadow: 0 0 15px -1px black;
+  }
+}
+
+.secondary {
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $color__branding-powder-blue;
+  color: $color__branding-navy !important;
+  text-decoration: none;
+  box-shadow: 0 0 25px -1px black;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    background-color: $color__branding-powder-blue-hover;
+    box-shadow: 0 0 15px 1px black;
+  }
+}
+
+.link {
+  max-width: 400px;
+  text-align: center;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: $color__branding-almost-black;
+  color: $color__branding-light-grey !important;
+  text-decoration: none;
+  box-shadow: 0 0 10px -1px black;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+    color: $color__branding-almost-black !important;
+    background-color: $color__branding-powder-blue-hover;
+    box-shadow: 0 0 15px 1px black;
+  }
+}
+
+
+/*--------------------------------------------
+2. sections
+----------------------------------------------*/
+
+.outside-box-shadow {
+  box-shadow: 30px 30px 100px -30px black;
+}
+
+.outside-box-shadow-reverse {
+  box-shadow: -30px 30px 100px -30px black;
+}
+
+.inside-box-shadow {
+  box-shadow: -30px 30px 100px -30px black;
+}
+
+.inside-box-shadow-reverse {
+  box-shadow: 30px 30px 100px -30px black;
+}

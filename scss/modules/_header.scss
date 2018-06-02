@@ -1,0 +1,84 @@
+.site-header {
+  background-color: $color__branding-navy;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu {
+
+  li {
+    margin: 0 10px;
+  }
+
+  a {
+    font-size: 1.1em;
+    color: $color__branding-light-grey;
+    border-bottom: 2px solid $color__branding-navy;
+    border-bottom-width: 5px;
+    transition: all .25s ease-out;
+
+    &:hover {
+      transition: all .25s ease-in;
+      border-bottom-width: 100%;
+      color: $color__branding-powder-blue;
+      border-bottom: 2px solid $color__branding-powder-blue;
+    }
+  }
+}
+
+/*=================================
+CURRENT MENU ITEM
+===================================*/
+
+.current-menu-item {
+
+  @media screen and (min-width:800px) {
+    height: 1px;
+    border-bottom-width: 100%;
+    color: $color__branding-powder-blue !important;
+    border-bottom: 2px solid $color__branding-powder-blue;
+  }
+}
+
+
+
+
+//mobile menu button
+
+#responsive-menu-button {
+  @media screen and (min-width: 800px){
+    display: none;
+  }
+}
+
+#primary-menu {
+  @media screen and (max-width: 800px){
+    display: none;
+  }
+}
+
+
+//logo
+
+.site-branding {
+
+  a {
+
+    img {
+      width: 280px;
+      margin: 5px 15px;
+    }
+  }
+}
