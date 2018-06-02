@@ -1,8 +1,12 @@
 # Construction_theme
 
 Theme Requirements:
-  Must have the PRO version of Advanced Custom Fields. This theme will only work if you have that. 
-  Must install Custom Post Type UI plugin - IT'S FREE!
+
+1) Must have the PRO version of Advanced Custom Fields. This theme will only work if you have that. 
+2) Must install Custom Post Type UI plugin - IT'S FREE!
+3) Download [Responsive Menu] plugin from repository and set the breakpoint to 800px
+4) Pre-Processing solution
+
 
 Steps:
 
@@ -12,3 +16,13 @@ Steps:
 4) Upload JSON file to [Custom Fields -> Tools -> Upload]
 5) Download Custom Post Type UI plugin
 6) Copy and Paste text from file CPT_UI.txt to [CPT UI -> Tools]
+7) You will want to set up a preprocessing solution since this site uses SCSS (I have not set up a gulp file yet, could come through in a    later version).
+
+
+Recommendations:
+
+I have been using [Autoptimize] to help with site speed and it is working great. The overall theme is pretty slim out of the box so you most likely wont have any speed issues.
+
+I typically compress each photo manually prior to uploading using [Compressor.io]. With other websites I have used the [Imagify] plugin which does a really great job of compressing photos and doesn't usually bloat the site. 
+
+When I do not have time to set up a gulpfile.js I use Pre Pros to process the SCSS
