@@ -41,4 +41,4 @@ When I do not have time to set up a gulpfile.js I use Pre Pros to process the SC
     
     browsersync || gulp browsersync
     ```
-5) browsersync works great on my machine, make sure you change the [const LOCAL_URL = 'http://localhost:8888/Eric%20Rattcliffe%20Construction/wordpress/';] which is located in the [gulpfile.js]
+5) browsersync works great on my machine, make sure you change the ```const LOCAL_URL = 'YOUR_URL_GOES_HERE';``` which is located in the ```gulpfile.js```
