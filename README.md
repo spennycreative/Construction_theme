@@ -27,19 +27,19 @@ I typically compress each photo manually prior to uploading using [Compressor.io
 
 When I do not have time to set up a gulpfile.js I use Pre Pros to process the SCSS
 
+======================================================================================================================================
 
-[How to set up gulp and browsersync]
+======================================================================================================================================
 
-Install gulp globally || npm install --global gulp-cli
+How to set up gulp and browsersync:
 
-Make sure you have the package.json from the construction_theme files
-
-Install dependencies || npm install
-
-Once you have done this, you will be able to run each in this order 
+1) Install gulp globally || npm install --global gulp-cli
+2) Make sure you have the package.json from the construction_theme files
+3) Install dependencies || npm install
+4) Once you have done this, you will be able to run each in this order 
 
     "postinstall": "npm run build",
     "build": "gulp",
     "browsersync": "gulp browsersync",
     
-browsersync works great on my machine, make sure you change the [const LOCAL_URL = 'http://localhost:8888/Eric%20Rattcliffe%20Construction/wordpress/';] which is located in the [gulpfile.js]
+5) browsersync works great on my machine, make sure you change the [const LOCAL_URL = 'http://localhost:8888/Eric%20Rattcliffe%20Construction/wordpress/';] which is located in the [gulpfile.js]
