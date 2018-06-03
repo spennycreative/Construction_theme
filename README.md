@@ -35,8 +35,8 @@ When I do not have time to set up a gulpfile.js I use Pre Pros to process the SC
 3) Install dependencies || ```npm install```
 4) Once you have done this, you will be able to run each in this order 
     ```
-    postinstall || npm run build
-    build || gulp 
-    browsersync || gulp browsersync
+    npm run build
+    gulp 
+    gulp browsersync
     ```
 5) browsersync works great on my machine, make sure you change the ```const LOCAL_URL = 'YOUR_URL_GOES_HERE';``` which is located in the ```gulpfile.js```
