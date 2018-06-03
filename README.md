@@ -27,9 +27,6 @@ I typically compress each photo manually prior to uploading using [Compressor.io
 
 When I do not have time to set up a gulpfile.js I use Pre Pros to process the SCSS
 
-================================================================
-
-================================================================
 
 ## How to set up gulp and browsersync:
 
